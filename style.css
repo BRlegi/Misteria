@@ -1,0 +1,57 @@
+html {
+    flex-direction: column;
+    background-color: rgb(25, 22, 29);
+}
+body {
+    flex-direction: column;
+    margin: 0; /*To remove the space around the nav bar.*/
+}
+
+nav {
+    display: flex;
+    background-color: rgb(16, 13, 19);
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 7px 7px #0d0414;
+}
+
+.navTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.txtTitle {
+    color: rgb(193, 178, 207);
+    font-family: calibri;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/*Just to allign the ufo*/
+.timgBox {
+    display: flex;
+    height: 85px;
+    align-items: start;
+    padding-bottom: 5px;
+}
+.iconTitle {
+    display: flex;
+    height: 80px;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    color: rgb(193, 178, 207);
+    align-items: center;
+    gap: 20px;
+}
+li {
+    font-family: calibri;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
